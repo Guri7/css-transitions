@@ -1,0 +1,48 @@
+             .rotate{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+                 float: left;
+            
+        }
+                .scale{
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+                    float: right;
+                    
+        }
+                .skew{
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+                    float: left;
+                    margin-left: 250px;
+        }
+        
+          .translate{
+            width: 150px;
+            height: 150px;
+            background-color: green;
+              float: right;
+            margin-right: 250px;
+        }
+         .rotate:active{
+            transform: rotate(360deg);
+             transition: all 3s linear;
+        }
+        
+        .scale:hover{
+            transform: scale(3,3);
+            transition: all 1s ease-in;
+        }
+        .skew:hover{
+            transform: skewX(30deg);
+            transition: all 1s ease;
+        }
+        
+        .translate:hover{
+            transform: translate(50px, 100px);
+             transition: all 0.5s ease-in-out; 
+        }
+        
